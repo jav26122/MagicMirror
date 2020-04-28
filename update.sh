@@ -12,10 +12,17 @@ echo "Updated MagicMirro2 repo"
 
 rm -rf modules
 cp -r ../modules .
+cd modules
+cd MMM-SystemStats
+npm install
+cd ..
+
+cd ..
 echo "Updated modules"
 
 rm -rf config/*
 cp ../config/* config
 echo "Updated config"
 
+npm i async
 npm install

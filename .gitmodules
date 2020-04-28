@@ -1,3 +1,6 @@
 [submodule "MagicMirror"]
 	path = MagicMirror
 	url = https://github.com/MichMich/MagicMirror
+[submodule "modules/MMM-SystemStats"]
+	path = modules/MMM-SystemStats
+	url = https://github.com/BenRoe/MMM-SystemStats

@@ -59,11 +59,10 @@ var config = {
 			}
 		},
 		{
-			module: "MMM-NetworkConnection",
+			module: "MMM-SystemStats",
 			position: "bottom_left",
 			config: {
-				updateInterval: 60000,
-				maxTime: 5000
+				updateInterval: 2000
 			}
 		}
 	]
