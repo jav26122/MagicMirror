@@ -2,7 +2,7 @@
 echo "Updating packages"
 
 sudo apt update && sudo apt upgrade
-sudo apt install -y nodejs
+sudo apt install -y nodejs arp-scan
 
 
 cd MagicMirror
@@ -14,6 +14,9 @@ rm -rf modules
 cp -r ../modules .
 cd modules
 cd MMM-SystemStats
+npm install
+cd ..
+cd MMM-NetworkScanner
 npm install
 cd ..
 

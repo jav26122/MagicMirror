@@ -4,3 +4,6 @@
 [submodule "modules/MMM-SystemStats"]
 	path = modules/MMM-SystemStats
 	url = https://github.com/BenRoe/MMM-SystemStats
+[submodule "modules/MMM-NetworkScanner"]
+	path = modules/MMM-NetworkScanner
+	url = https://github.com/ianperrin/MMM-NetworkScanner

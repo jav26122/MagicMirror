@@ -64,7 +64,34 @@ var config = {
 			config: {
 				updateInterval: 2000
 			}
+		},
+		{
+			module: "MMM-NetworkScanner",
+			position: "bottom_right",
+			config: {
+				showLastSeen: true,
+				colored: true,
+				updateInterval: 10,
+				debug: true,
+				showLastSeenWhenOffline: true,
+				devices: [
+					{
+						macAddress: "c0:d2:dd:e8:72:2b",
+						name: "Jaret",
+						icon: "male",
+						color: "#1800FF"
+					},
+					{
+						macAddress: "c0:d2:dd:e8:7b:d5",
+						name: "Audrey",
+						icon: "female",
+						color: "#0FFF00"
+					}
+				],
+				residents: ["Jaret", "Audrey"]
+			}
 		}
+
 	]
 
 };
