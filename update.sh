@@ -1,4 +1,8 @@
 
+echo "Updating packages"
+
+sudo apt update && sudo apt upgrade
+sudo apt install -y nodejs
 
 
 cd MagicMirror
