@@ -1,7 +1,7 @@
 
 
 
-cd MagicMirrorMaster
+cd MagicMirror
 git fetch
 git pull
 echo "Updated MagicMirro2 repo"
