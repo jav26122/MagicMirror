@@ -10,8 +10,8 @@ git fetch
 git pull
 echo "Updated MagicMirro2 repo"
 
-rm -rf modules/default
-cp -r ../default modules
+rm -rf modules
+cp -r ../modules .
 echo "Updated modules"
 
 rm -rf config/*

@@ -57,6 +57,14 @@ var config = {
 				showPeriod: true,
 				showHumidity: true,
 			}
+		},
+		{
+			module: "MMM-NetworkConnection",
+			position: "bottom_left",
+			config: {
+				updateInterval: 60000,
+				maxTime: 5000
+			}
 		}
 	]
 
